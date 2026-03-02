@@ -1,0 +1,10 @@
+{"name": "english-jobs-netherlands",
+  "version": "1.0.0",
+  "description": "Employment platform connecting English speakers with job opportunities in the Netherlands",
+  "private": true,
+  "workspaces": [
+    "backend",
+    "frontend"
+  ],
+  "scripts": {
+    "dev": "concurrently \"npm run dev -w backend\" \"npm run dev -w frontend\"",
